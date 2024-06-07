@@ -34,7 +34,7 @@ public class CuboTest {
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = (aresta * aresta) * 6;
+        double areaEsperada = (aresta * aresta) * 6.0;
         Assertions.assertEquals(areaEsperada, cubo.calcularArea());
     }
 

@@ -53,7 +53,7 @@ public class CilindroTest {
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = 2 * pi * raio * (raio + altura);
+        double areaEsperada = 2.0 * pi * raio * (raio + altura);
         Assertions.assertEquals(areaEsperada, cilindro.calcularArea());
     }
 

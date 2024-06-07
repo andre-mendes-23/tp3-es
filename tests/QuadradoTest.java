@@ -40,7 +40,7 @@ public class QuadradoTest {
 
     @Test
     public void testCalcularPerimetro() {
-        double perimetroEsperado = 4 * lado;
+        double perimetroEsperado = 4.0 * lado;
         Assertions.assertEquals(perimetroEsperado, quadrado.calcularPerimetro());
     }
 

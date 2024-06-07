@@ -46,7 +46,7 @@ public class Retangulo extends FigurasPlanas implements Cloneable {
 
     @Override
     public double calcularPerimetro() {
-        return 2 * (comprimento + largura);
+        return 2.0 * (comprimento + largura);
     }
 
     public Object clone() throws CloneNotSupportedException{

@@ -46,7 +46,7 @@ public class Cilindro extends FigurasNaoPlanas implements Cloneable{
 
     @Override
     public double calcularArea() {
-        return 2 * pi * raio * (raio + altura);
+        return 2.0 * pi * raio * (raio + altura);
     }
 
     @Override

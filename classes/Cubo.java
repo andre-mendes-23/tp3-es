@@ -30,7 +30,7 @@ public class Cubo extends FigurasNaoPlanas implements Cloneable{
 
     @Override
     public double calcularArea() {
-        return (aresta * aresta) * 6;
+        return (aresta * aresta) * 6.0;
     }
 
     @Override

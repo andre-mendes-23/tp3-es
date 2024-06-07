@@ -47,17 +47,17 @@ public class PiramideTest {
 
     @Test
     public void testCalcularArea() {
-        double hipotenusa = (altura * altura) + ((arestaDaBase / 2 )*(arestaDaBase / 2));
+        double hipotenusa = (altura * altura) + ((arestaDaBase / 2.0 )*(arestaDaBase / 2.0 ));
         double alturaDaFace = Math.sqrt(hipotenusa);
-        double areaLateraL = (arestaDaBase * alturaDaFace)/2;
-        double areaEsperada = (areaLateraL * 4) + (arestaDaBase * arestaDaBase);
+        double areaLateral = (arestaDaBase * alturaDaFace) / 2.0;
+        double areaEsperada = (areaLateral * 4.0) + (arestaDaBase * arestaDaBase);
         Assertions.assertEquals(areaEsperada, piramide.calcularArea());
     }
 
     @Test
     public void testCalcularVolume() {
         double areaDaBase = arestaDaBase * arestaDaBase;
-        double volumeEsperado = (areaDaBase * altura) / 3;
+        double volumeEsperado = (areaDaBase * altura) / 3.0;
         Assertions.assertEquals(volumeEsperado, piramide.calcularVolume());
     }
 

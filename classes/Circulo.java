@@ -40,7 +40,7 @@ public class Circulo extends FigurasPlanas implements Cloneable{
 
     @Override
     public double calcularPerimetro() {
-        return 2 * pi * raio;
+        return 2.0 * pi * raio;
     }
 
     public Object clone() throws CloneNotSupportedException{

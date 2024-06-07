@@ -82,7 +82,7 @@ public class TrapezioTest {
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = ((baseMaior + baseMenor) * altura) / 2;
+        double areaEsperada = ((baseMaior + baseMenor) * altura) / 2.0;
         Assertions.assertEquals(areaEsperada, trapezio.calcularArea());
     }
 

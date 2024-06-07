@@ -52,7 +52,7 @@ public class Triangulo extends FigurasPlanas implements Cloneable{
 
     @Override
     public double calcularArea() {
-        return (lado1*altura) / 2;
+        return (lado1*altura) / 2.0;
     }
 
     @Override

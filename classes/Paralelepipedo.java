@@ -49,7 +49,7 @@ public class Paralelepipedo extends FigurasNaoPlanas implements Cloneable {
 
     @Override
     public double calcularArea() {
-        return 2 * (comprimento * largura + comprimento * altura + largura * altura);
+        return 2.0 * (comprimento * largura + comprimento * altura + largura * altura);
     }
 
     @Override

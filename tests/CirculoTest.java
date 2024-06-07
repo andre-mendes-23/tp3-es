@@ -46,7 +46,7 @@ public class CirculoTest {
 
     @Test
     public void testCalcularPerimetro() {
-        double perimetroEsperado = 2 * pi * raio;
+        double perimetroEsperado = 2.0 * pi * raio;
         Assertions.assertEquals(perimetroEsperado, circulo.calcularPerimetro());
     }
 

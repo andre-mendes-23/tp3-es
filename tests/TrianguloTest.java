@@ -58,7 +58,7 @@ public class TrianguloTest {
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = (lado1 * altura) / 2;
+        double areaEsperada = (lado1 * altura) / 2.0;
         Assertions.assertEquals(areaEsperada, triangulo.calcularArea(), 0.001);
     }
 

@@ -42,17 +42,17 @@ public class Piramide extends FigurasNaoPlanas implements Cloneable{
 
     @Override
     public double calcularArea() {
-        double hipotenusa = (altura * altura) + ((arestaDaBase / 2 )*(arestaDaBase / 2));
+        double hipotenusa = (altura * altura) + ((arestaDaBase / 2.0 )*(arestaDaBase / 2.0));
         double alturaDaFace = Math.sqrt(hipotenusa);
-        double areaLateraL = (arestaDaBase * alturaDaFace)/2;
-        double area = (areaLateraL * 4) + (arestaDaBase * arestaDaBase);
+        double areaLateral = (arestaDaBase * alturaDaFace) / 2.0;
+        double area = (areaLateral * 4.0) + (arestaDaBase * arestaDaBase);
         return area;
     }
 
     @Override
     public double calcularVolume() {
         double areaDaBase = arestaDaBase * arestaDaBase;
-        return (areaDaBase * altura) / 3;
+        return (areaDaBase * altura) / 3.0;
     }
 
     public Object clone() throws CloneNotSupportedException{

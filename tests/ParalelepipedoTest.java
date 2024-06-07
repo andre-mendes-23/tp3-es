@@ -58,7 +58,7 @@ public class ParalelepipedoTest {
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = 2 * (comprimento * largura + comprimento * altura + largura * altura);
+        double areaEsperada = 2.0 * (comprimento * largura + comprimento * altura + largura * altura);
         Assertions.assertEquals(areaEsperada, paralelepipedo.calcularArea());
     }
 

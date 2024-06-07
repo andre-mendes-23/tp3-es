@@ -74,7 +74,7 @@ public class Trapezio extends FigurasPlanas implements Cloneable {
 
     @Override
     public double calcularArea() {
-        return ((baseMaior + baseMenor) * altura) / 2;
+        return ((baseMaior + baseMenor) * altura) / 2.0;
     }
 
     @Override
