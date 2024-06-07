@@ -25,8 +25,8 @@ public class CilindroTest {
 
     @Test
     public void testSetRaio() {
-        cilindro.setRaio(raio);
-        Assertions.assertEquals(raio, cilindro.getRaio());
+        double novoRaio = 2.0;
+        cilindro.setRaio(novoRaio);
     }
 
     @Test

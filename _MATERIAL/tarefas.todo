@@ -1,7 +1,5 @@
-✔ 1 - Criação de um ficheiro de classes e classes de testes para Esfera @done(24-06-07 22:39)
-☐ 2 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
-☐ 3 - Criação de uma melhor função set nos ficheiros de teste.
-☐ 4 - Criação de comentários no código principal
+☐ Alterar a função set das classes de teste a partir do exemplo da função setRaio da classe CilindroTest
+☐ Comentar o código
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
