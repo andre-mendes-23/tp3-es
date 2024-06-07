@@ -1,0 +1,28 @@
+☐ 1 - Criar um ficheiro de classes e classes de testes para Esfera
+☐ 2 - Criar um ficheiro de classes e classes de testes para Paralelepipedo.
+☐ 3 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
+---------------------------------------
+Estrutura do Relatório:
+1. Introdução
+2. Contextualização do projeto em si
+3. Descrição dos testes
+
+----------------------------------------
+3. Descrição dos testes no relatório:
+3.1. Classe de Testes da Classe Figura
+3.1.1. Classe "FigurasTest"
+
+3.2. Figuras Planas
+3.2.1.  Classe "CirculoTest"
+3.2.2.  Classe "QuadradoTest"
+3.2.3.  Classe "TrianguloTest"
+3.2.4.  Classe "RetânguloTest"
+3.2.5.  Classe "TrapézioTest"
+
+3.3. Figuras Não Planas
+3.3.1. Classe "CilindroTest"
+3.3.2. Classe "CuboTest"
+3.3.3. Classe "PirâmideTest"
+3.3.4.  Classe "EsferaTest"
+3.3.5.  Classe "ParalelepípedoTest"
+---------------------------------------
