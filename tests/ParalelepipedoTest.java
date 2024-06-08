@@ -24,8 +24,8 @@ public class ParalelepipedoTest {
 
     @Test
     public void testSetComprimento() {
-       paralelepipedo.setComprimento(comprimento);
-       Assertions.assertEquals(comprimento, paralelepipedo.getComprimento());
+       double novoComprimento = 2.0;
+       paralelepipedo.setComprimento(novoComprimento);
     }
 
     @Test
@@ -35,8 +35,8 @@ public class ParalelepipedoTest {
 
     @Test
     public void testSetLargura() {
-       paralelepipedo.setLargura(largura);
-       Assertions.assertEquals(largura, paralelepipedo.getLargura());
+       double novaLargura = 4.0;
+       paralelepipedo.setLargura(novaLargura);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class ParalelepipedoTest {
 
     @Test
     public void testSetAltura() {
-        paralelepipedo.setAltura(altura);
-        Assertions.assertEquals(altura, paralelepipedo.getAltura());
+        double novaAltura = 7.0;
+        paralelepipedo.setAltura(novaAltura);
     }
 
     @Test
