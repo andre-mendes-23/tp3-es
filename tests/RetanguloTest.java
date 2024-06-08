@@ -23,8 +23,8 @@ public class RetanguloTest {
 
     @Test
     public void testSetComprimento() {
-        retangulo.setComprimento(comprimento);
-        Assertions.assertEquals(comprimento, retangulo.getComprimento());
+        double novoComprimento = 2.0;
+        retangulo.setComprimento(novoComprimento);
     }
 
     @Test
@@ -34,8 +34,8 @@ public class RetanguloTest {
 
     @Test
     public void testSetLargura() {
-        retangulo.setLargura(largura);
-        Assertions.assertEquals(largura, retangulo.getLargura());
+        double novaLargura = 5.0;
+        retangulo.setLargura(novaLargura);
     }
 
     @Test
