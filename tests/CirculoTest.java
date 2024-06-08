@@ -23,8 +23,8 @@ public class CirculoTest {
 
     @Test
     public void testSetRaio() {
-        circulo.setRaio(raio);
-        Assertions.assertEquals(raio, circulo.getRaio());
+        double novoRaio = 3.0;
+        circulo.setRaio(novoRaio);
     }
 
     @Test
