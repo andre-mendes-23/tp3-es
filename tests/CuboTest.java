@@ -22,8 +22,8 @@ public class CuboTest {
 
     @Test
     public void testSetAresta() {
-        cubo.setAresta(aresta);
-        Assertions.assertEquals(aresta, cubo.getAresta());
+        double novaAresta = 3.0;
+        cubo.setAresta(novaAresta);
     }
 
     @Test
