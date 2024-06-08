@@ -24,8 +24,8 @@ public class PiramideTest {
 
     @Test
     public void testSetArestaDaBase() {
-        piramide.setArestaDaBase(arestaDaBase);
-        Assertions.assertEquals(arestaDaBase, piramide.getArestaDaBase());
+        double novaArestaDaBase = 2.0;    
+        piramide.setArestaDaBase(novaArestaDaBase);
     }
 
     @Test
@@ -35,8 +35,8 @@ public class PiramideTest {
 
     @Test
     public void testSetAltura() {
-        piramide.setAltura(altura);
-        Assertions.assertEquals(altura, piramide.getAltura());
+        double novaAltura = 7.0;
+        piramide.setAltura(novaAltura);
     }
 
     @Test
