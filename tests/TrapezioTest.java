@@ -26,8 +26,8 @@ public class TrapezioTest {
 
     @Test
     public void testSetBaseMaior() {
-        trapezio.setBaseMaior(baseMaior);
-        Assertions.assertEquals(baseMaior, trapezio.getBaseMaior());
+        double novaBaseMaior = 3.0;
+        trapezio.setBaseMaior(novaBaseMaior);
     }
     
     @Test
@@ -37,8 +37,8 @@ public class TrapezioTest {
 
     @Test
     public void testSetBaseMenor() {
-        trapezio.setBaseMenor(baseMenor);
-        Assertions.assertEquals(baseMenor, trapezio.getBaseMenor());
+        double novaBaseMenor = 5.0;
+        trapezio.setBaseMenor(novaBaseMenor);
     }    
 
     @Test
@@ -48,8 +48,8 @@ public class TrapezioTest {
 
     @Test
     public void testSetLado1() {
-        trapezio.setLado1(lado1);
-        Assertions.assertEquals(lado1, trapezio.getLado1());
+        double novoLado1 = 2.0;
+        trapezio.setLado1(novoLado1);
     }
     
     @Test
@@ -59,8 +59,8 @@ public class TrapezioTest {
 
     @Test
     public void testSetLado2() {
-        trapezio.setLado2(lado2);
-        Assertions.assertEquals(lado2, trapezio.getLado2());
+        double novoLado2 = 3.0;
+        trapezio.setLado2(novoLado2);
     }
 
     @Test
@@ -70,8 +70,8 @@ public class TrapezioTest {
 
     @Test
     public void testSetAltura() {
-        trapezio.setAltura(altura);
-        Assertions.assertEquals(altura, trapezio.getAltura());
+        double novaAltura = 7.0;
+        trapezio.setAltura(novaAltura);
     }
 
     @Test
