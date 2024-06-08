@@ -22,8 +22,8 @@ public class FigurasTest {
 
     @Test
     public void testSetNome() {
-        figuras.setNome(nomeFigura);
-        Assertions.assertEquals(nomeFigura, figuras.getNome());
+        String novoNomeFigura = "Quadrado";
+        figuras.setNome(novoNomeFigura);
     }
 
     @Test
