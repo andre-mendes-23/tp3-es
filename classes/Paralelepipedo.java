@@ -58,7 +58,7 @@ public class Paralelepipedo extends FigurasNaoPlanas implements Cloneable {
     }
 
     public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        return (Paralelepipedo) super.clone();
     }
 
 }

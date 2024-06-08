@@ -44,7 +44,7 @@ public class Circulo extends FigurasPlanas implements Cloneable{
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Circulo) super.clone();
 
     }
 }

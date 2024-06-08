@@ -55,7 +55,7 @@ public class Cilindro extends FigurasNaoPlanas implements Cloneable{
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Cilindro) super.clone();
 
     }
 }

@@ -83,7 +83,7 @@ public class Trapezio extends FigurasPlanas implements Cloneable {
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Trapezio) super.clone();
 
     }
 

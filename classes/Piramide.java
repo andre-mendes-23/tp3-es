@@ -56,7 +56,7 @@ public class Piramide extends FigurasNaoPlanas implements Cloneable{
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Piramide) super.clone();
 
     }
 }

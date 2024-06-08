@@ -39,7 +39,7 @@ public class Cubo extends FigurasNaoPlanas implements Cloneable{
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Cubo) super.clone();
 
     }
 }

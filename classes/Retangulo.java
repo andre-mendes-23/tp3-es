@@ -50,7 +50,7 @@ public class Retangulo extends FigurasPlanas implements Cloneable {
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return (Retangulo) super.clone();
     }
 
 }
