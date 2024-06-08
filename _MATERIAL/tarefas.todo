@@ -1,23 +1,23 @@
-✔ Atualização da função Clone nas Classes das Figuras @done(24-06-08 11:49)
 ☐ Criar a classe Main da Aplicação
-☐ Comentar o código
+☐ Criar a classe MainTest da Aplicação
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
-2. Contextualização do projeto em si
-3. Descrição dos testes
-3.1. Classe de Testes da Classe Figura
-3.1.1. Classe "FigurasTest"
-3.2. Figuras Planas
-3.2.1.  Classe "CirculoTest"
-3.2.2.  Classe "QuadradoTest"
-3.2.3.  Classe "TrianguloTest"
-3.2.4.  Classe "RetânguloTest"
-3.2.5.  Classe "TrapézioTest"
-3.3. Figuras Não Planas
-3.3.1. Classe "CilindroTest"
-3.3.2. Classe "CuboTest"
-3.3.3. Classe "PirâmideTest"
-3.3.4.  Classe "EsferaTest"
-3.3.5.  Classe "ParalelepípedoTest"
+2. Descrição dos ficheiros de testes
+2.1. Classe de Testes da Classe "Main"
+2.1.1. Classe "MainTest"
+2.2. Classe de Testes da Classe "Figura"
+2.2.1. Classe "FigurasTest"
+2.3. Figuras Planas
+2.3.1.  Classe "CirculoTest"
+2.3.2.  Classe "QuadradoTest"
+2.3.3.  Classe "TrianguloTest"
+2.3.4.  Classe "RetânguloTest"
+2.3.5.  Classe "TrapézioTest"
+2.4. Figuras Não Planas
+2.4.1. Classe "CilindroTest"
+2.4.2. Classe "CuboTest"
+2.4.3. Classe "PirâmideTest"
+2.4.4.  Classe "EsferaTest"
+2.4.5.  Classe "ParalelepípedoTest"
 ---------------------------------------
