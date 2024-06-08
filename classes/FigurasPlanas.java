@@ -8,6 +8,6 @@ public abstract class FigurasPlanas extends Figuras implements Area, Perimetro, 
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return (Cilindro) super.clone();
+        return super.clone();
     } 
 }

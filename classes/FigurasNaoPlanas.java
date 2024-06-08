@@ -8,6 +8,6 @@ public abstract class FigurasNaoPlanas extends Figuras implements Area, Volume, 
     }
 
     public Object clone() throws CloneNotSupportedException{
-        return (Cilindro) super.clone();
+        return super.clone();
     }
 }
