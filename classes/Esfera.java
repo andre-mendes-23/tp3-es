@@ -1,6 +1,6 @@
 package classes;
 
-public class Esfera extends FigurasNaoPlanas implements Cloneable {
+public class Esfera extends FigurasNaoPlanas {
 
     public double raio;
     final double pi = 3.14;

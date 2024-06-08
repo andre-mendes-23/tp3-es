@@ -1,6 +1,6 @@
 package classes;
 
-public class Quadrado extends FigurasPlanas implements Cloneable{
+public class Quadrado extends FigurasPlanas{
 
     private double lado;
 

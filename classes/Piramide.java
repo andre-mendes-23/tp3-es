@@ -1,7 +1,7 @@
 package classes;
 import java.lang.Math;
 
-public class Piramide extends FigurasNaoPlanas implements Cloneable{
+public class Piramide extends FigurasNaoPlanas {
 
     private double arestaDaBase;
     private double altura;

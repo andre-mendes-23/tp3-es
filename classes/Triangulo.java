@@ -1,6 +1,6 @@
 package classes;
 
-public class Triangulo extends FigurasPlanas implements Cloneable{
+public class Triangulo extends FigurasPlanas {
 
      private double lado1;
      private double lado2;
@@ -59,10 +59,4 @@ public class Triangulo extends FigurasPlanas implements Cloneable{
     public double calcularPerimetro() {
         return lado1 + lado2 + altura;
     }
-
-    public Object clone() throws CloneNotSupportedException {
-        return (Triangulo) super.clone();
-    }
-
-
 }

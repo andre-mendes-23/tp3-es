@@ -1,6 +1,6 @@
 package classes;
 
-public class Cubo extends FigurasNaoPlanas implements Cloneable{
+public class Cubo extends FigurasNaoPlanas {
 
     private double aresta;
 

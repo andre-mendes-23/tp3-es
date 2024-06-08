@@ -1,6 +1,6 @@
 package classes;
 
-public class Retangulo extends FigurasPlanas implements Cloneable {
+public class Retangulo extends FigurasPlanas{
 
     private double comprimento;
     private double largura;

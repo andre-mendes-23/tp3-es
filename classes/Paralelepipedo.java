@@ -1,6 +1,6 @@
 package classes;
 
-public class Paralelepipedo extends FigurasNaoPlanas implements Cloneable {
+public class Paralelepipedo extends FigurasNaoPlanas {
 
     private double comprimento;
     private double largura;

@@ -1,6 +1,6 @@
 package classes;
 
-public class Circulo extends FigurasPlanas implements Cloneable{
+public class Circulo extends FigurasPlanas{
 
     private double raio;
     final double pi = 3.14;

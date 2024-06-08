@@ -1,6 +1,6 @@
 package classes;
 
-public class Trapezio extends FigurasPlanas implements Cloneable {
+public class Trapezio extends FigurasPlanas {
 	
     public double baseMaior;
     public double baseMenor;

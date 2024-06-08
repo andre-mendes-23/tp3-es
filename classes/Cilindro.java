@@ -1,6 +1,6 @@
 package classes;
 
-public class Cilindro extends FigurasNaoPlanas implements Cloneable{
+public class Cilindro extends FigurasNaoPlanas {
 
     private double raio;
     private double altura;
