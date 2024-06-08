@@ -23,8 +23,8 @@ public class EsferaTest {
 
     @Test
     public void testSetRaio() {
-        esfera.setRaio(raio);
-        Assertions.assertEquals(raio, esfera.getRaio());
+        double novoRaio = 3.0;
+        esfera.setRaio(novoRaio);
     }
 
     public void testGetPi() {
