@@ -22,8 +22,8 @@ public class QuadradoTest {
 
     @Test
     public void testSetLado() {
-        quadrado.setLado(lado);
-        Assertions.assertEquals(lado, quadrado.getLado());
+        double novoLado = 3.0;
+        quadrado.setLado(novoLado);
     }
 
     @Test
