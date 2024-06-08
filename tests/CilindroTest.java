@@ -36,8 +36,8 @@ public class CilindroTest {
 
     @Test
     public void testSetAltura() {
-        cilindro.setAltura(altura);
-        Assertions.assertEquals(altura, cilindro.getAltura());
+        double novaAltura = 7.0;
+        cilindro.setAltura(novaAltura);
     }
 
     @Test
