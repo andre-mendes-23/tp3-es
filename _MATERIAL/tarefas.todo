@@ -1,23 +1,4 @@
-☐ Criar a classe Main da Aplicação
-☐ Criar a classe MainTest da Aplicação
 ---------------------------------------
 Estrutura do Relatório:
-1. Introdução
-2. Descrição dos ficheiros de testes
-2.1. Classe de Testes da Classe "Main"
-2.1.1. Classe "MainTest"
-2.2. Classe de Testes da Classe "Figura"
-2.2.1. Classe "FigurasTest"
-2.3. Figuras Planas
-2.3.1.  Classe "CirculoTest"
-2.3.2.  Classe "QuadradoTest"
-2.3.3.  Classe "TrianguloTest"
-2.3.4.  Classe "RetânguloTest"
-2.3.5.  Classe "TrapézioTest"
-2.4. Figuras Não Planas
-2.4.1. Classe "CilindroTest"
-2.4.2. Classe "CuboTest"
-2.4.3. Classe "PirâmideTest"
-2.4.4.  Classe "EsferaTest"
-2.4.5.  Classe "ParalelepípedoTest"
----------------------------------------
+1. Introdução com contextualização do projeto
+3. Descrição de todos os ficheiros do projecto
